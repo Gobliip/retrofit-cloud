@@ -5,4 +5,4 @@
 - OAuthJWTTokenInterceptor provides an easy way to embed JWT bearer tokens into retrofit clients
 - OAuthBasicAuthInterceptor provides an easy way to embed basic authentication headers into retrofit clients
 
-[Sping Cloud]: http://projects.spring.io/spring-cloud/
+[Spring Cloud]: http://projects.spring.io/spring-cloud/
