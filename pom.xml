@@ -6,7 +6,7 @@
 
 	<groupId>com.gobliip.retrofit.cloud</groupId>
 	<artifactId>retrofit-cloud</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1-RELEASE</version>
 
 	<properties>
 		<retrofit.version>1.9.0</retrofit.version>
