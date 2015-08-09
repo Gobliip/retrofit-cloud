@@ -1,7 +1,5 @@
 package com.gobliip.retrofit.cloud.oauth2.jwt;
 
-import org.apache.commons.lang3.Validate;
-
 import java.util.Optional;
 
 /**
@@ -24,11 +22,8 @@ public class InMemoryJWTTokenStore implements JWTTokenStore {
     }
 
     @Override
-    public void setToken(String token) {
-        Validate.notNull(token, "token must not be null");
-        synchronized (this) {
-            this.token = token;
-        }
+    public synchronized void setToken(String token) {
+        this.token = token;
     }
 
 }
